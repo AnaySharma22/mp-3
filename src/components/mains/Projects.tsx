@@ -19,6 +19,7 @@ const StyledH1 = styled.h1`
 
 const StyledLabel = styled.label`
     font-family: "Orbitron", sans-serif;
+    font-weight: bold;
 `;
 
 const StyledInputs = styled.div`
@@ -144,9 +145,9 @@ export default function Projects(){
         <StyledMain>
             <StyledH1>Calculator</StyledH1>
             <StyledInputs>
-                <StyledLabel htmlFor="first">first number:</StyledLabel>
+                <StyledLabel htmlFor="first">First number:</StyledLabel>
                 <StyledInput id="first" value={input1} placeholder="Enter a number" onChange={(e)=>setInput1(e.target.value)}/>
-                <StyledLabel htmlFor="second">second number:</StyledLabel>
+                <StyledLabel htmlFor="second">Second number:</StyledLabel>
                 <StyledInput id="second" value={input2} placeholder="Enter a number" onChange={(e)=>setInput2(e.target.value)}/>
             </StyledInputs>
             <StyledButtons>
