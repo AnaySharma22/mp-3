@@ -40,7 +40,7 @@ export default function Home() {
     return (
         <StyledMain>
             <StyledH1>Home</StyledH1>
-            <StyledImg src="/../../../public/img_Resume.jpeg" alt="Anay Sharma"/>
+            <StyledImg src="img_Resume.jpeg" alt="Anay Sharma"/>
             <StyledDesc>
                 My name is Anay Sharma. I am a Computer Science Sophomore at Boston University. I
                 am an aspiring Software Engineer with experience in Python and Django. This website
